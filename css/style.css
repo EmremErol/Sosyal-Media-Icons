@@ -1,0 +1,57 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  *:focus, *:active{
+    outline:none;
+  }
+  html, body{
+    display:grid;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+    background: linear-gradient(315deg, #8f3636, #d7e1ec);
+  }
+  .cerceveAlani{
+    display:inline-block;
+  }
+  .cerceveAlani .iconAlanlari{
+    display:inline-block;
+    position:relative;
+    width:80px;
+    min-width: 80px;
+    max-width:80px;
+    height:80px;
+    min-height: 80px;
+    max-height:80px;
+    background-color: #fff;
+    border:0;
+    border:1px solid rgb(182, 135, 135);
+    padding:30px;
+    margin:10px;
+    font-size:18px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius:50%;
+  }
+  .facebook img{
+    display:inline-block;
+    position:relative;
+    width:20px;
+    height:20px;
+    background-color: transparent;
+    text-align: center;
+    border:none;
+    outline:none;
+    margin:0 auto;
+    padding:0;
+  }
